@@ -23,6 +23,7 @@ public final class SinglePattern_staticInnerClass {
 
 
 
+
     public static SinglePattern_staticInnerClass getInstance() {
         return Inner.SINGLEPATTERN_STATICINNERCLASS;
     }
