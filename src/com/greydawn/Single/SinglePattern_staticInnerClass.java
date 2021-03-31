@@ -21,9 +21,6 @@ public final class SinglePattern_staticInnerClass {
         private static final SinglePattern_staticInnerClass SINGLEPATTERN_STATICINNERCLASS = new SinglePattern_staticInnerClass();
     }
 
-
-
-
     public static SinglePattern_staticInnerClass getInstance() {
         return Inner.SINGLEPATTERN_STATICINNERCLASS;
     }
