@@ -1,6 +1,7 @@
 package com.greydawn;
 
 import com.greydawn.Single.SinglePattern_doubleChecked;
+import com.greydawn.Single.SinglePattern_enum;
 
 /**
  * @author zhongwr
@@ -17,7 +18,9 @@ public class Main {
             //懒汉式
 //            System.out.println(SinglePattern_lazy.getInstance());
             //双检锁/双重校验锁 DCL
-            System.out.println(SinglePattern_doubleChecked.getInstance());
+//            System.out.println(SinglePattern_doubleChecked.getInstance());
+            //枚举
+            System.out.println(SinglePattern_enum.INSTANCE.getInstance());
         }
     }
 
